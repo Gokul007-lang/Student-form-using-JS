@@ -59,6 +59,70 @@
       margin: 30px;
     
     }
+ 
+.Student_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  font-size: 20px;
+  padding: 20px;
+  margin: 30px;
+}
+
+.user_details {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: large;
+  border: solid rgb(228, 60, 110) 10px;
+  border-radius: 20px;
+  justify-content: center;
+  width: 1220px;
+  background-color: aqua;
+  position: relative;
+  left: 150px;
+}
+
+.user_details input,
+.user_details select {
+  cursor: pointer;
+}
+
+.user_details input[type="submit"] {
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  left: 90px;
+}
+
+.user_details input[type="submit"]:hover {
+  background-color: green;
+}
+
+.user_table {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px;
+}
+
+
+@media (max-width: 768px) {
+ .body {
+    width: 50%;
+    padding: 10px;
+ }
+ .user_details {
+    width: 60%;
+    padding: 10px;
+    left: 70px;
+ }
+}
+
   </style>
 </head>
 
