@@ -2,213 +2,213 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Student Form</title>
-  <style>
-    .Student_form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: aquamarine;
-      font-size: 20px;
-      padding: 20px;
-      margin: 30px;
-      
-      
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Form</title>
+    <style>
+        .Student_form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            font-size: 20px;
+            padding: 20px;
+            margin: 30px;
 
-    .user_details {
-      padding: 20px;
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      font-size: large;
-      border: solid rgb(228, 60, 110) 10px;
-      border-radius: 20px;
-      justify-content: center;
-      width: 1220PX;
-      background-color: aqua;
-      position: relative;
-      left: 150PX;
-  
-    }
 
-    .user_details input,
-    .user_details select {
-      cursor: pointer;
-    }
+        }
 
-    .user_details input[type="submit"] {
-      background-color: red;
-      padding: 5px;
-      cursor: pointer;
-      position: relative;
-      left: 90px;
-    }
+        .user_details {
+            padding: 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-size: large;
+            border: solid rgb(228, 60, 110) 10px;
+            border-radius: 20px;
+            justify-content: center;
+            width: 1220PX;
+            background-color: aqua;
+            position: relative;
+            left: 150PX;
 
-    .user_details input[type="submit"]:hover {
-      background-color: green;
-    }
+        }
 
-    .user_table{
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-      margin: 30px;
-    
-    }
- 
-.Student_form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: aquamarine;
-  font-size: 20px;
-  padding: 20px;
-  margin: 30px;
-}
+        .user_details input,
+        .user_details select {
+            cursor: pointer;
+        }
 
-.user_details {
-  padding: 20px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  font-size: large;
-  border: solid rgb(228, 60, 110) 10px;
-  border-radius: 20px;
-  justify-content: center;
-  width: 1220px;
-  background-color: aqua;
-  position: relative;
-  left: 150px;
-}
+        .user_details input[type="submit"] {
+            background-color: red;
+            padding: 5px;
+            cursor: pointer;
+            position: relative;
+            left: 90px;
+        }
 
-.user_details input,
-.user_details select {
-  cursor: pointer;
-}
+        .user_details input[type="submit"]:hover {
+            background-color: green;
+        }
 
-.user_details input[type="submit"] {
-  background-color: red;
-  padding: 5px;
-  cursor: pointer;
-  position: relative;
-  left: 90px;
-}
+        .user_table {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin: 30px;
 
-.user_details input[type="submit"]:hover {
-  background-color: green;
-}
+        }
 
-.user_table {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  margin: 30px;
-}
+        .Student_form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            font-size: 20px;
+            padding: 20px;
+            margin: 30px;
+        }
 
-/* Media querry */
-@media (max-width: 768px) {
- .body {
-    width: 50%;
-    padding: 10px;
- }
- .user_details {
-    width: 60%;
-    padding: 10px;
-    left: 70px;
- }
+        .user_details {
+            padding: 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-size: large;
+            border: solid rgb(228, 60, 110) 10px;
+            border-radius: 20px;
+            justify-content: center;
+            width: 1220px;
+            background-color: aqua;
+            position: relative;
+            left: 150px;
+        }
 
-}
+        .user_details input,
+        .user_details select {
+            cursor: pointer;
+        }
 
-  </style>
+        .user_details input[type="submit"] {
+            background-color: red;
+            padding: 5px;
+            cursor: pointer;
+            position: relative;
+            left: 90px;
+        }
+
+        .user_details input[type="submit"]:hover {
+            background-color: green;
+        }
+
+        .user_table {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin: 30px;
+        }
+
+        /* Media querry */
+        @media (max-width: 768px) {
+            .body {
+                width: 50%;
+                padding: 10px;
+            }
+
+            .user_details {
+                width: 60%;
+                padding: 10px;
+                left: 70px;
+            }
+
+        }
+    </style>
 </head>
 
 <body>
-  <section class="Student_form">
-    <h1>Student Form</h1>
-  </section>
+    <section class="Student_form">
+        <h1>Student Form</h1>
+    </section>
 
-  <form class="user_details" id="userForm">
-    <table border="1">
-      <tr>
-        <td>Name :</td>
-        <td><input type="text" name="Name" placeholder="Enter your Name" /></td>
-      </tr>
-      <tr>
-        <td>Age :</td>
-        <td><input type="text" name="Age" placeholder="Enter your Age" /></td>
-      </tr>
-      <tr>
-        <td>Gender :</td>
-        <td>
-          <select name="Gender">
-            <option>Male</option>
-            <option>Female</option>
-            <option>Other</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td>Courses :</td>
-        <td>
-          <select name="Courses">
-            <option>Python</option>
-            <option>Javascript</option>
-            <option>C++</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td>Email :</td>
-        <td><input type="text" name="Email" placeholder="Email id" /></td>
-      </tr>
-      <tr>
-        <td colspan="2"><input type="submit" value="Submit" /></td>
-      </tr>
-    </table>
-  </form>
+    <form class="user_details" id="userForm">
+        <table border="1">
+            <tr>
+                <td>Name :</td>
+                <td><input type="text" name="Name" placeholder="Enter your Name" /></td>
+            </tr>
+            <tr>
+                <td>Age :</td>
+                <td><input type="text" name="Age" placeholder="Enter your Age" /></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <select name="Gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Courses :</td>
+                <td>
+                    <select name="Courses">
+                        <option>Python</option>
+                        <option>Javascript</option>
+                        <option>C++</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="text" name="Email" placeholder="Email id" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
 
-  <section class="user_table">
-    <h1>User Table</h1>
-    <table border="1" id="userTable">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Age</th>
-          <th>Gender</th>
-          <th>Courses</th>
-          <th>Email</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </section>
+    <section class="user_table">
+        <h1>User Table</h1>
+        <table border="1" id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Courses</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
 
-  <script>
-    const form = document.getElementById("userForm");
-    const userTable = document.getElementById("userTable").getElementsByTagName("tbody")[0];
+    <script>
+        const form = document.getElementById("userForm");
+        const userTable = document.getElementById("userTable").getElementsByTagName("tbody")[0];
 
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
 
-      const formData = new FormData(form);
+            const formData = new FormData(form);
 
-      const userDetails = {
-        Name: formData.get("Name"),
-        Age: formData.get("Age"),
-        Gender: formData.get("Gender"),
-        Courses: formData.get("Courses"),
-        Email: formData.get("Email"),
-      };
+            const userDetails = {
+                Name: formData.get("Name"),
+                Age: formData.get("Age"),
+                Gender: formData.get("Gender"),
+                Courses: formData.get("Courses"),
+                Email: formData.get("Email"),
+            };
 
-      const row = userTable.insertRow();
+            const row = userTable.insertRow();
 
-      row.innerHTML = `
+            row.innerHTML = `
         <td>${userDetails.Name}</td>
         <td>${userDetails.Age}</td>
         <td>${userDetails.Gender}</td>
@@ -219,14 +219,14 @@
         </td>
       `;
 
-      form.reset();
-    });
+            form.reset();
+        });
 
-    function deleteRow(button) {
-      button.parentNode.parentNode.remove();
-    }
-  </script>
-  
+        function deleteRow(button) {
+            button.parentNode.parentNode.remove();
+        }
+    </script>
+
 </body>
 
 </html>
